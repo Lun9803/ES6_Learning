@@ -75,7 +75,7 @@ console.log(sample_2([1, [3]]));
 
 // 9. 函数参数解构赋值-对象
 // 重点：以下两种方法结果不一样
-
+console.log('\n9.');
 // 第一个函数是为x和y指定默认值，如果结构失败就赋默认值
 function showVar({x = 0, y = 0} = {}){
     console.log('showVar:', [x, y]);

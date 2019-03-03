@@ -37,3 +37,4 @@ function sort(arr){
 }
 
 console.log(sort([5,2,5,1,6,9,10,25,1,23,29,-3]));
+console.log(sort([1241,123,315,725,-12421,-2632,12]));
