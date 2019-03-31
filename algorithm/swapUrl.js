@@ -27,7 +27,7 @@ function swapUrlPartial(url){
     while(true){
         let nextDotIndex = findNextDotIndex(url, startIndex);
         if(nextDotIndex!=0){
-            url = url.concat(".", url.slice(nextDotIndex+1, startIndex));
+            url = url.concat(url.slice(nextDotIndex, startIndex));
         }
         if(nextDotIndex==0){
             url = url.concat(".", url.slice(nextDotIndex, startIndex));
@@ -39,6 +39,7 @@ function swapUrlPartial(url){
 }
 
 console.log(swapUrlPartial("www.baidu.com.123.321"));
+console.log(swapUrlPartial("www.12412.1.1.0"));
 
 
 
