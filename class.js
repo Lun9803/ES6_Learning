@@ -124,6 +124,7 @@ t.addNode(new node(7));
 t.addNode(new node(8));
 t.addNode(new node(1));
 t.addNode(new node(4));
+t.addNode(new node(4));
 console.log();
 t.inOrderTraversal();
 console.log();
